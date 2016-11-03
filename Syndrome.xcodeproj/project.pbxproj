@@ -10,11 +10,12 @@
 		4EDE96960464D32963C18608 /* libPods-Syndrome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE2FF26812908353F640DFC /* libPods-Syndrome.a */; };
 		8C950E3E1DCBDE0A005E1A12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C950E3D1DCBDE0A005E1A12 /* main.m */; };
 		8C950E411DCBDE0A005E1A12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C950E401DCBDE0A005E1A12 /* AppDelegate.m */; };
-		8C950E441DCBDE0A005E1A12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C950E431DCBDE0A005E1A12 /* ViewController.m */; };
+		8C950E441DCBDE0A005E1A12 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C950E431DCBDE0A005E1A12 /* IntroViewController.m */; };
 		8C950E471DCBDE0A005E1A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C950E451DCBDE0A005E1A12 /* Main.storyboard */; };
 		8C950E491DCBDE0A005E1A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C950E481DCBDE0A005E1A12 /* Assets.xcassets */; };
 		8C950E4C1DCBDE0A005E1A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C950E4A1DCBDE0A005E1A12 /* LaunchScreen.storyboard */; };
 		8C950E571DCBDE0B005E1A12 /* SyndromeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C950E561DCBDE0B005E1A12 /* SyndromeTests.m */; };
+		8CCD87141DCBE6AD003FD1E6 /* PatientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD87131DCBE6AD003FD1E6 /* PatientsViewController.m */; };
 		CF6560BEEE20248E779A5C3A /* libPods-SyndromeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F933461B9A6C6E35D876B78F /* libPods-SyndromeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +35,8 @@
 		8C950E3D1DCBDE0A005E1A12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C950E3F1DCBDE0A005E1A12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C950E401DCBDE0A005E1A12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C950E421DCBDE0A005E1A12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C950E431DCBDE0A005E1A12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C950E421DCBDE0A005E1A12 /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		8C950E431DCBDE0A005E1A12 /* IntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		8C950E461DCBDE0A005E1A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C950E481DCBDE0A005E1A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C950E4B1DCBDE0A005E1A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +44,8 @@
 		8C950E521DCBDE0B005E1A12 /* SyndromeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyndromeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C950E561DCBDE0B005E1A12 /* SyndromeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyndromeTests.m; sourceTree = "<group>"; };
 		8C950E581DCBDE0B005E1A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CCD87121DCBE6AD003FD1E6 /* PatientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsViewController.h; sourceTree = "<group>"; };
+		8CCD87131DCBE6AD003FD1E6 /* PatientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsViewController.m; sourceTree = "<group>"; };
 		91BB48C04053256BD7DCDE76 /* Pods-Syndrome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Syndrome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Syndrome/Pods-Syndrome.debug.xcconfig"; sourceTree = "<group>"; };
 		94A83D5056178DAE12D3896F /* Pods-Syndrome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Syndrome.release.xcconfig"; path = "Pods/Target Support Files/Pods-Syndrome/Pods-Syndrome.release.xcconfig"; sourceTree = "<group>"; };
 		BEE2FF26812908353F640DFC /* libPods-Syndrome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Syndrome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,8 +107,10 @@
 			children = (
 				8C950E3F1DCBDE0A005E1A12 /* AppDelegate.h */,
 				8C950E401DCBDE0A005E1A12 /* AppDelegate.m */,
-				8C950E421DCBDE0A005E1A12 /* ViewController.h */,
-				8C950E431DCBDE0A005E1A12 /* ViewController.m */,
+				8C950E421DCBDE0A005E1A12 /* IntroViewController.h */,
+				8C950E431DCBDE0A005E1A12 /* IntroViewController.m */,
+				8CCD87121DCBE6AD003FD1E6 /* PatientsViewController.h */,
+				8CCD87131DCBE6AD003FD1E6 /* PatientsViewController.m */,
 				8C950E451DCBDE0A005E1A12 /* Main.storyboard */,
 				8C950E481DCBDE0A005E1A12 /* Assets.xcassets */,
 				8C950E4A1DCBDE0A005E1A12 /* LaunchScreen.storyboard */,
@@ -344,8 +349,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C950E441DCBDE0A005E1A12 /* ViewController.m in Sources */,
+				8C950E441DCBDE0A005E1A12 /* IntroViewController.m in Sources */,
 				8C950E411DCBDE0A005E1A12 /* AppDelegate.m in Sources */,
+				8CCD87141DCBE6AD003FD1E6 /* PatientsViewController.m in Sources */,
 				8C950E3E1DCBDE0A005E1A12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
