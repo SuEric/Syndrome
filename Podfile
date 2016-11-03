@@ -7,6 +7,7 @@ target 'Syndrome' do
 
   # Pods for Syndrome
   pod 'EAIntroView'
+  pod 'XLForm'
 
   target 'SyndromeTests' do
     inherit! :search_paths
