@@ -1,0 +1,15 @@
+PODS:
+  - EAIntroView (2.9.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+
+DEPENDENCIES:
+  - EAIntroView
+
+SPEC CHECKSUMS:
+  EAIntroView: 76f68cc56242f2e25359419e6ecc2344ee7e1756
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+
+PODFILE CHECKSUM: a57e7032e29bcc18d99abcf1f3d7896d47d51653
+
+COCOAPODS: 1.1.1
