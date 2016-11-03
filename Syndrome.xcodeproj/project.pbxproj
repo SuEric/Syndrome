@@ -16,6 +16,7 @@
 		8C950E4C1DCBDE0A005E1A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C950E4A1DCBDE0A005E1A12 /* LaunchScreen.storyboard */; };
 		8C950E571DCBDE0B005E1A12 /* SyndromeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C950E561DCBDE0B005E1A12 /* SyndromeTests.m */; };
 		8CCD87141DCBE6AD003FD1E6 /* PatientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD87131DCBE6AD003FD1E6 /* PatientsViewController.m */; };
+		8CCD871A1DCBEDE5003FD1E6 /* AddPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD87191DCBEDE5003FD1E6 /* AddPatientViewController.m */; };
 		CF6560BEEE20248E779A5C3A /* libPods-SyndromeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F933461B9A6C6E35D876B78F /* libPods-SyndromeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		8C950E581DCBDE0B005E1A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CCD87121DCBE6AD003FD1E6 /* PatientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsViewController.h; sourceTree = "<group>"; };
 		8CCD87131DCBE6AD003FD1E6 /* PatientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsViewController.m; sourceTree = "<group>"; };
+		8CCD87181DCBEDE5003FD1E6 /* AddPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPatientViewController.h; sourceTree = "<group>"; };
+		8CCD87191DCBEDE5003FD1E6 /* AddPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPatientViewController.m; sourceTree = "<group>"; };
 		91BB48C04053256BD7DCDE76 /* Pods-Syndrome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Syndrome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Syndrome/Pods-Syndrome.debug.xcconfig"; sourceTree = "<group>"; };
 		94A83D5056178DAE12D3896F /* Pods-Syndrome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Syndrome.release.xcconfig"; path = "Pods/Target Support Files/Pods-Syndrome/Pods-Syndrome.release.xcconfig"; sourceTree = "<group>"; };
 		BEE2FF26812908353F640DFC /* libPods-Syndrome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Syndrome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +114,8 @@
 				8C950E431DCBDE0A005E1A12 /* IntroViewController.m */,
 				8CCD87121DCBE6AD003FD1E6 /* PatientsViewController.h */,
 				8CCD87131DCBE6AD003FD1E6 /* PatientsViewController.m */,
+				8CCD87181DCBEDE5003FD1E6 /* AddPatientViewController.h */,
+				8CCD87191DCBEDE5003FD1E6 /* AddPatientViewController.m */,
 				8C950E451DCBDE0A005E1A12 /* Main.storyboard */,
 				8C950E481DCBDE0A005E1A12 /* Assets.xcassets */,
 				8C950E4A1DCBDE0A005E1A12 /* LaunchScreen.storyboard */,
@@ -350,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C950E441DCBDE0A005E1A12 /* IntroViewController.m in Sources */,
+				8CCD871A1DCBEDE5003FD1E6 /* AddPatientViewController.m in Sources */,
 				8C950E411DCBDE0A005E1A12 /* AppDelegate.m in Sources */,
 				8CCD87141DCBE6AD003FD1E6 /* PatientsViewController.m in Sources */,
 				8C950E3E1DCBDE0A005E1A12 /* main.m in Sources */,

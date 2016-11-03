@@ -69,7 +69,7 @@
                         </connections>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="7nu-Cx-m9b">
+                    <navigationItem key="navigationItem" title="Patients" id="7nu-Cx-m9b">
                         <barButtonItem key="backBarButtonItem" title="Cancel" id="NP3-Fw-WxB"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="yXY-RU-aP0">
                             <connections>
@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="1576.8" y="38.23088455772114"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Patient-->
         <scene sceneID="PY3-kp-XJc">
             <objects>
-                <viewController id="a4u-YP-7zp" sceneMemberID="viewController">
+                <viewController title="Add Patient" id="a4u-YP-7zp" customClass="AddPatientViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4zN-0x-BD5"/>
                         <viewControllerLayoutGuide type="bottom" id="W1Z-IA-hx3"/>
@@ -99,6 +99,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Add Patient" id="X9h-WH-kMz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="z9x-Rr-vjf">
+                            <connections>
+                                <action selector="save:" destination="a4u-YP-7zp" id="1g3-sc-0ME"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tg0-hY-eF8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
